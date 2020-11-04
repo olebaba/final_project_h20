@@ -4,4 +4,15 @@
 
 body{
   background-color: antiquewhite;
+  display: block;
+}
+
+h1{
+  text-align: center;
+
+}
+
+nav{
+  display: grid;
+  grid-template: 4 1 auto;
 }
