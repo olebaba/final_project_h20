@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <head>
   <title>HowCrowded</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link id="style" rel="stylesheet" href="css/style.css">
+  <script type="text/javascript">
+    function changeCSS(){
+      if(document.getElementById("cssChange").checked == true){
+        document.getElementById("style").setAttribute('href', "css/style_alternative1.css");
+      }else{
+        document.getElementById("style").setAttribute('href', "css/style.css");
+      }
+    }
+  </script>
 </head>
 <body>
   <div class="content">
@@ -12,25 +21,35 @@
       <a href="prototype.html">Prototype</a>
     </nav>
     <div id="sources" class="main">
+      <h1>All resources:</h1>
       <h2>Sources of content:</h2>
-      <li><a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">UNs sustainable developement goals</a>- 05.11.2020</li>
-      <li> <a href="https://www.un.org/sustainabledevelopment/health/">UNs goal nr. 3, Good health and well being</a>- 05.11.2020</li>
-      <li> <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO, Protect yourself and others from COVID-19</a>- 09.11.2020</li>
+      <ol>
+        <li id="UN-goals"><a href="https://www.un.org/sustainabledevelopment/sustainable-development-goals/">UNs sustainable developement goals</a>- 05.11.2020</li>
+        <li id="UN-3"> <a href="https://www.un.org/sustainabledevelopment/health/">UNs goal nr. 3, Good health and well being</a>- 05.11.2020</li>
+        <li id="WHO-COVID19"> <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">WHO, Protect yourself and others from COVID-19</a>- 09.11.2020</li>
+      </ol>
       <br><br>
       <h2>Sources of assets:</h2>
-      <li><a href="https://unsplash.com/photos/JqWanio3sZo">Distancing image on front page</a>- 11.11.2020</li>
+      <ol>
+        <li><a href="https://unsplash.com/photos/JqWanio3sZo">Distancing image on front page</a>- 11.11.2020</li>
+      </ol>
     </div>
+    <input id="cssChange" type="checkbox" name="CSS" value="" onchange="changeCSS()">
   </div>
-
 
   <footer id="footer">
     <h2>Made by:</h2>
-    <br>
-    <div id="moreFooter">
-      <h5 id="contributor">Me</h6>
-      <h5 id="contributor">You</h6>
-      <h5 id="contributor">And You</h6>
+    <div class="fContent">
+      <a id="resources" href="resources.html">Our resources</a>
+      <p style="padding:1vh;">|</p>
+      <div id="contributors">
+        <h5 class="contributor">Ole</h5>
+        <h5 class="contributor">Zandra</h5>
+        <h5 class="contributor">Eva</h5>
+        <h5 class="contributor">Ina</h5>
+        <h5 class="contributor">Siem</h5>
+        <h5 class="contributor">Daniel</h5>
+      </div>
     </div>
-    <br>
   </footer>
 </body>

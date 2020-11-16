@@ -1,3 +1,5 @@
-Final project h20
+## Final project webutvikling
 
-some sources: distancing.jpg https://unsplash.com/photos/JqWanio3sZo
+### Laget til emne DAFE1200-1 20H
+
+#### Laget av: Zandra, Ole, Ina, Eva, Siem og Daniel
