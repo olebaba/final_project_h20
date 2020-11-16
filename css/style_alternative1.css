@@ -7,7 +7,7 @@ html, body{
 }
 
 body{
-  background-color: #F3E9E3;
+  background-color: #DAF0EE;
   display: flex;
   flex-direction: column;
   color: white;
@@ -37,7 +37,6 @@ h1{
   display: flex;
   flex-direction: row;
   color: #403234;
-  /* background-color: rgb(214 68 68 / 12%); */
   align-items: center;
 }
 
@@ -47,7 +46,7 @@ h1{
 
 #footer{
   flex-shrink: 0;
-  background-color: #697477;
+  background-color: #74B0BB;
   text-align: center;
   position: sticky;
   bottom: 0;
@@ -60,7 +59,7 @@ h1{
 }
 
 .main p{
-  background-color: #403234;
+  background-color: #DAF0EE;
   float: right;
   width: 35vw;
   margin: 5vh auto;
@@ -86,7 +85,7 @@ h1{
 }
 
 #sources{
-  background-color: #403234;
+
   border-radius: 2em;
   text-align: left;
   width: 50%;
@@ -96,7 +95,7 @@ h1{
 
 #sources *{
   margin: 1vh;
-  color: inherit;
+  color: #777274;
 }
 
 #cssChange{
