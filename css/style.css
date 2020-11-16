@@ -1,7 +1,9 @@
+/*******Alle sider*********/
 *{
   margin: 0;
   padding: 0;
 }
+
 html, body{
   height: 100%;
 }
@@ -14,17 +16,23 @@ body{
   z-index: 0;
 }
 
+h1{
+  text-align: center;
+}
+
+.content{
+  flex: 1 0 auto;
+}
+
+/*********Navbar menu ************/
+
 #navbar a{
-  color: #403234;
+  color: #333548;
   text-decoration: none;
   font-size: 2vw;
   margin: 1vh 4vw;
   padding: 3vh 3vw;
   height: fit-content;
-}
-
-h1{
-  text-align: center;
 }
 
 #sources h1{
@@ -37,17 +45,16 @@ h1{
   display: flex;
   flex-direction: row;
   color: #403234;
-  /* background-color: rgb(214 68 68 / 12%); */
+  /*background-image: linear-gradient( #F3E9E3 75%, #07beb840);*/
   align-items: center;
+  margin-bottom: 1vh;
 }
 
-.content{
-  flex: 1 0 auto;
-}
+/********Footer*******/
 
 #footer{
   flex-shrink: 0;
-  background-color: #697477;
+  background-color: #E26D5C;
   text-align: center;
   position: sticky;
   bottom: 0;
@@ -57,6 +64,12 @@ h1{
 #moreFooter{
   display: flex;
   flex: auto
+}
+
+#contributor{
+  z-index: -1;
+  margin: auto;
+  /*height: 20vh;*/
 }
 
 .main p{
@@ -70,23 +83,19 @@ h1{
   font-size: 2em;
 }
 
-#contributor{
-  z-index: -1;
-  margin: auto;
-  /*height: 20vh;*/
-}
-
 .images{
   max-width: 30vw;
   margin: 2vw;
 }
+
+/**********Resources side********/
 
 #resources{
   margin: 1vh auto;
 }
 
 #sources{
-  background-color: #403234;
+  background-color: #333548;
   border-radius: 2em;
   text-align: left;
   width: 50%;
