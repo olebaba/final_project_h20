@@ -18,7 +18,9 @@ body{
   color: #403234;
   text-decoration: none;
   font-size: 2vw;
-  margin: 10vh 7vw;
+  margin: 1vh 4vw;
+  padding: 3vh 3vw;
+  height: fit-content;
 }
 
 h1{
@@ -30,6 +32,7 @@ h1{
   flex-direction: row;
   color: #403234;
   background-color: rgb(214 68 68 / 12%);
+  align-items: center;
 }
 
 .content{
@@ -47,8 +50,7 @@ h1{
 
 #moreFooter{
   display: flex;
-  flex: auto;
-
+  flex: auto
 }
 
 .main p{
@@ -64,10 +66,24 @@ h1{
 
 #contributor{
   z-index: -1;
+  margin: auto;
   /*height: 20vh;*/
 }
 
 .images{
   max-width: 30vw;
   margin: 2vw;
+}
+
+#resources{
+  margin: 1vh auto;
+}
+
+#sources{
+  color: black;
+  text-align: center;
+}
+
+#sources *{
+  margin: 1vh;
 }
