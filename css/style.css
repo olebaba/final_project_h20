@@ -127,3 +127,105 @@ h1{
   width: 5vw;
   height: 6vh;
 }
+/*Problem and solution*/
+.problem-text, .solution-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+  font-family: tahoma, sans-serif;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+h2 {
+  padding: 10px 0px 10px 0px;
+}
+
+/*PROBLEM-PAGE*/
+.text-wrap-left {
+  float: left;
+  margin: 10px 20px 10px 0px;
+
+}
+.text-wrap-right {
+  float: right;
+  margin: 10px 0px 10px 20px;
+}
+/*SOLUTION-PAGE*/
+.solution-text-white{
+  color: white;
+  font-family: tahoma, sans-serif;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+.solution-heading{
+  color: white;
+  font-family: tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+img{
+  max-width: 100%;
+}
+
+.flex-so {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+.flex-leftso {
+  margin-right: 10px;
+  flex: 50%;
+  background-color: #424B4E;
+  padding: 20px;
+  text-align: center;
+  border-radius: 2em;
+}
+
+.flex-rightso {
+  margin-left: 10px;
+  flex: 50%;
+  background-color: #424B4E;
+  padding: 20px;
+  text-align: center;
+  border-radius: 2em;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+.flex-leftso img{
+  background-color: white;
+  border-radius: 1em;
+}
+.flex-rightso img{
+  padding: 5px;
+  background-color: white;
+  border-radius: 1em;
+}
+
+@media screen and (max-width: 800px){
+  /*PROBLEM-PAGE*/
+  .text-wrap-left, .text-wrap-right{
+    float: none;
+    margin: 10 0 10 0;
+  }
+/*Solution-page*/
+  .flex-so {
+    flex-direction: column;
+    margin: 0;
+  }
+  .flex-leftso {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+  }
+  .flex-rightso {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
