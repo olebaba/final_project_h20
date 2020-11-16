@@ -87,20 +87,83 @@ h1{
 
 /********Hoved div**********/
 
-.main p{
-  background-color: #403234;
+.images{
+  max-width: 30vw;
+  margin: 2vw;
+}
+/**********Hjem side********/
+
+.section-solution {
+  width: 100%;
+  height: 200px;
+  background-color: #F3E9E3;
+}
+
+.section-challenge {
+  width: 100%;
+  height: 320px;
+  background-color: #22333b;
+
+}
+
+.section-container {
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+}
+
+.button {
+  background-color: #E26D5C;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.section-content {
+  width: 60%;
+  float: left;
+}
+
+.section-image {
+  width: 30%;
+  float: right;
+}
+
+.section-challenge .section-content {
+  color: white;
+}
+
+.section-solution .section-content {
+  color: #333548;
+}
+
+.primary-heading {
   float: right;
   width: 35vw;
   margin: 5vh auto;
   margin-right: 3vw;
   padding: 5vw;
   border-radius: 2em;
-  font-size: 2em;
+  font-size: 5em;
+  color: #333548;
 }
 
-.images{
-  max-width: 30vw;
-  margin: 2vw;
+#crowd-image {
+  height: 230px;
+  width: 350px;
+  box-shadow: 5px 10px 8px #888888:
+}
+
+#app-image {
+  height: 290px;
+  width: 290px;
+  box-shadow: 5px 10px 8px #888888:
 }
 
 /**********Resources side********/
