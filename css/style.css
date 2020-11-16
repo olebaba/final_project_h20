@@ -58,19 +58,32 @@ h1{
   text-align: center;
   position: sticky;
   bottom: 0;
-
-}
-
-#moreFooter{
   display: flex;
-  flex: auto
+  flex-direction: column;
 }
 
-#contributor{
+.fContent{
+  display: flex;
+  flex-direction: row;
+}
+
+.contributor{
   z-index: -1;
   margin: auto;
   /*height: 20vh;*/
 }
+
+#contributors{
+  flex: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+#resources{
+  flex: 20%;
+}
+
+/********Hoved div**********/
 
 .main p{
   background-color: #403234;
