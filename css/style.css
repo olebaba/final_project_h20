@@ -211,6 +211,28 @@ h2 {
   float: right;
   margin: 10px 0px 10px 20px;
 }
+.center {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px 20px 0px;
+}
+.flex-pro {
+  display: flex;
+  flex-direction: row;
+}
+.flex-leftpro {
+  flex: 50%;
+  margin-left: 5%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.flex-rightpro {
+  flex: 50%;
+  padding: 30px 0px 30px 0px;
+  margin-top: 20px;
+}
 /*SOLUTION-PAGE*/
 .solution-text-white{
   color: white;
@@ -265,6 +287,15 @@ ul {
   .text-wrap-left, .text-wrap-right{
     float: none;
     margin: 10 0 10 0;
+  }
+  .flex-pro {
+    flex-direction: column;
+  }
+  .flex-leftpro {
+    margin-left: 0;
+  }
+  .flex-rightpro {
+    margin-left: 10%;
   }
 /*Solution-page*/
   .flex-so {
