@@ -202,6 +202,23 @@ h2 {
 }
 
 /*PROBLEM-PAGE*/
+.problem-text h2{
+  margin-top: 40px;
+}
+.flex-challenge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-challenge-left{
+  flex: 60%;
+  margin-left: 5%;
+}
+.flex-challenge-right{
+  flex: 40%;
+  margin-right: 10%;
+}
+
 .text-wrap-left {
   float: left;
   margin: 10px 20px 10px 0px;
@@ -221,18 +238,26 @@ h2 {
 .flex-pro {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  background-color: #424B4E;
 }
 .flex-leftpro {
-  flex: 50%;
-  margin-left: 5%;
+  flex: 40%;
+  padding: 30px 0px 30px 0px;
+  margin-top: 20px;
+  margin-left: 10%;
+
+}
+.flex-rightpro {
+  flex: 60%;
   margin-bottom: 30px;
   margin-top: 30px;
 }
-.flex-rightpro {
-  flex: 50%;
-  padding: 30px 0px 30px 0px;
-  margin-top: 20px;
-  margin-right: 10%;
+.flex-rightpro p {
+  color: white;
+}
+.flex-rightpro h2 {
+  color: white;
 }
 /*SOLUTION-PAGE*/
 .solution-text-white{
@@ -309,6 +334,15 @@ ul {
 
 @media screen and (max-width: 800px){
   /*PROBLEM-PAGE*/
+
+  .flex-challenge{
+    flex-direction: column;
+  }
+  .flex-challenge-right{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
   .text-wrap-left, .text-wrap-right{
     float: none;
     display: block;
@@ -316,21 +350,21 @@ ul {
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin: 10 0 10 0;
   }
-    /*margin: 10 0 10 0;
-  }*/
   .flex-pro {
     flex-direction: column;
   }
   .flex-leftpro {
-    margin-left: 0;
-    margin-bottom: 0;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
   }
   .flex-rightpro {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
+
+    margin-left: 0;
+    margin-bottom: 30px;
   }
 /*Solution-page*/
   .flex-so {
