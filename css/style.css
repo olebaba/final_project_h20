@@ -67,6 +67,14 @@ h1{
 .fContent{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.fContent img{
+  padding:1vh;
+  max-width:4%;
+  filter:invert(1);
 }
 
 .contributor{
