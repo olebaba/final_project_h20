@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body{
@@ -10,9 +11,6 @@ html, body{
 
 body{
   background-color: #F3E9E3;
-  display: flex;
-  flex-direction: column;
-  color: white;
   z-index: 0;
 }
 
@@ -87,20 +85,83 @@ h1{
 
 /********Hoved div**********/
 
-.main p{
-  background-color: #403234;
+.images{
+  max-width: 30vw;
+  margin: 2vw;
+}
+/**********Hjem side********/
+
+.section-solution {
+  width: 100%;
+  height: 200px;
+  background-color: #F3E9E3;
+}
+
+.section-challenge {
+  width: 100%;
+  height: 320px;
+  background-color: #22333b;
+
+}
+
+.section-container {
+  width: 60%;
+  margin: auto;
+  padding: 40px;
+}
+
+.button {
+  background-color: #E26D5C;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.section-content {
+  width: 60%;
+  float: left;
+}
+
+.section-image {
+  width: 30%;
+  float: right;
+}
+
+.section-challenge .section-content {
+  color: white;
+}
+
+.section-solution .section-content {
+  color: #333548;
+}
+
+.primary-heading {
   float: right;
   width: 35vw;
   margin: 5vh auto;
   margin-right: 3vw;
   padding: 5vw;
   border-radius: 2em;
-  font-size: 2em;
+  font-size: 5em;
+  color: #333548;
 }
 
-.images{
-  max-width: 30vw;
-  margin: 2vw;
+#crowd-image {
+  height: 230px;
+  width: 350px;
+  box-shadow: 5px 10px 8px #888888:
+}
+
+#app-image {
+  height: 290px;
+  width: 290px;
+  box-shadow: 5px 10px 8px #888888:
 }
 
 /**********Resources side********/
@@ -126,4 +187,202 @@ h1{
 #cssChange{
   width: 5vw;
   height: 6vh;
+}
+/*Problem and solution*/
+.problem-text, .solution-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+  font-family: tahoma, sans-serif;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+h2 {
+  padding: 10px 0px 10px 0px;
+}
+
+/*PROBLEM-PAGE*/
+.problem-text h2{
+  margin-top: 40px;
+}
+.flex-challenge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex-challenge-left{
+  flex: 60%;
+  margin-left: 5%;
+}
+.flex-challenge-right{
+  flex: 40%;
+  margin-right: 10%;
+}
+
+.text-wrap-left {
+  float: left;
+  margin: 10px 20px 10px 0px;
+
+}
+.text-wrap-right {
+  float: right;
+  margin: 10px 0px 10px 20px;
+}
+.center {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px 20px 0px;
+}
+.flex-pro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #424B4E;
+}
+.flex-leftpro {
+  flex: 40%;
+  padding: 30px 0px 30px 0px;
+  margin-top: 20px;
+  margin-left: 10%;
+
+}
+.flex-rightpro {
+  flex: 60%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.flex-rightpro p {
+  color: white;
+}
+.flex-rightpro h2 {
+  color: white;
+}
+/*SOLUTION-PAGE*/
+.solution-text-white{
+  color: white;
+  font-family: tahoma, sans-serif;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+.solution-heading{
+  color: white;
+  font-family: tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+img{
+  max-width: 100%;
+}
+
+.flex-so {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+}
+.flex-leftso {
+  margin-right: 10px;
+  flex: 50%;
+  background-color: #424B4E;
+  padding: 20px;
+  text-align: center;
+  border-radius: 2em;
+}
+
+.flex-rightso {
+  margin-left: 10px;
+  flex: 50%;
+  background-color: #424B4E;
+  padding: 20px;
+  text-align: center;
+  border-radius: 2em;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+.topflex-sol{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topflex-solleft{
+  flex: 70%;
+  margin-left: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+.topflex-solright p{
+  font-family: georgia, serif;
+  font-size: 40px;
+  text-align: center;
+}
+.topflex-solright{
+  flex: 30%;
+  margin-right: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+@media screen and (max-width: 800px){
+  /*PROBLEM-PAGE*/
+
+  .flex-challenge{
+    flex-direction: column;
+  }
+  .flex-challenge-right{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+  .text-wrap-left, .text-wrap-right{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 10 0 10 0;
+  }
+  .flex-pro {
+    flex-direction: column;
+  }
+  .flex-leftpro {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+  }
+  .flex-rightpro {
+
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+/*Solution-page*/
+  .flex-so {
+    flex-direction: column;
+    margin: 0;
+  }
+  .flex-leftso {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+  }
+  .flex-rightso {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .topflex-sol{
+    flex-direction: column;
+  }
 }
