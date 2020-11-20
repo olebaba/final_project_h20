@@ -87,7 +87,7 @@ h1{
 
 .images{
   max-width: 30vw;
-  margin: 2vw;
+  margin: 9vw;
 }
 /**********Hjem side********/
 
@@ -154,7 +154,7 @@ h1{
 
 #crowd-image {
   height: 230px;
-  width: 350px;
+  width: 480px;
   box-shadow: 5px 10px 8px #888888:
 }
 
