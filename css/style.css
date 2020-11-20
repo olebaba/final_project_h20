@@ -108,6 +108,7 @@ h1{
   background-color: #F3E9E3;
 }
 
+
 .section-challenge {
   width: 100%;
   background-color: #22333b;
@@ -152,19 +153,18 @@ h1{
 }
 
 .primary-heading {
-  float: right;
   width: 35vw;
   margin: 5vh auto;
   margin-right: 3vw;
   padding: 5vw;
   border-radius: 2em;
-  font-size: 4vh;
+  font-size: 3vh;
   color: #333548;
 }
 
 #crowd-image {
-  height: 230px;
-  width: 480px;
+  height: 19vw;
+  width: 30vw;
   box-shadow: 5px 10px 8px #888888:
 }
 
@@ -180,11 +180,19 @@ h1{
 }
 
 #distancing{
-  flex: 45%;
-  max-width: none;
-  width: 55vw;
+  flex: 100%;
+  height: 15vw;
 }
-
+.arrow-down {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4vw;
+  margin-bottom: 30px;
+}
+.arrow-down:hover {
+  opacity: 80%;
+}
 /**********Resources side********/
 
 #resource{
@@ -358,6 +366,34 @@ ul {
 }
 
 @media screen and (max-width: 800px){
+  /*Hjemside*/
+  .section-container {
+    flex-direction: column;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .primary-heading {
+    margin: auto;
+  }
+  #distancing {
+    margin: auto;
+  }
+  #crowd-image {
+    height:25vw;
+    width: 40vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  #app-image {
+    height:40vw;
+    width: 40vw;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .section-image {
+    margin: 0;
+  }
   /*PROBLEM-PAGE*/
 
   .flex-challenge{
