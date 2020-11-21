@@ -404,6 +404,15 @@ ul {
     margin-right: 10%;
     margin-bottom: 30px;
   }
+  .flex-challenge-right img{
+    max-width: 100%;
+  }
+  .flex-leftpro img{
+    max-width: 100%;
+  }
+  .center img{
+    max-width: 100%;
+  }
   .text-wrap-left, .text-wrap-right{
     float: none;
     display: block;
@@ -445,6 +454,9 @@ ul {
   }
   .topflex-sol{
     flex-direction: column;
+  }
+  .topflex-solleft img{
+    max-width: 100%;
   }
 
   /****Hoved****/
