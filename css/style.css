@@ -20,6 +20,10 @@ h1{
   text-align: center;
 }
 
+h2 {
+  padding: 10 auto;
+}
+
 .content{
   flex: 1 0 auto;
 }
@@ -229,9 +233,6 @@ h1{
   font-family: tahoma, sans-serif;
   line-height: 2em;
   letter-spacing: 1px;
-}
-h2 {
-  padding: 10px 0px 10px 0px;
 }
 
 /*PROBLEM-PAGE*/
