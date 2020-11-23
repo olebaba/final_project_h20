@@ -463,3 +463,74 @@ ul {
   /****Hoved****/
 
 }
+
+/*************PROTYPE-PAGE****************/
+
+main{
+  width: 100%;
+  height: auto;
+  background: #f3e9e3;
+  box-shadow: inset 0px 1px 3px rgba(100,100,100,0.5);
+}
+.divices{
+  width: 100%;
+  max-height: auto;
+}
+.divices_img{
+  height: auto;
+  width: 100%;
+  padding-top: 6em;
+  padding-bottom: 2em;
+}
+.divices_img img{
+  height: 30em;
+  width: 50%;
+}
+.divices_txt{
+  padding: 0em 10em;
+  font-family: Ubuntu;
+  line-height: 1.5em;
+}
+
+.prototype{
+  height: 40em;
+  width: 100%;
+}
+.wrapper_dark{
+  background: #424B4E;
+  color: white;
+  padding: 2em;
+}
+.wrapper_light{
+  padding: 2em;
+}
+.app_txt{
+  font-family: 'Segoe UI', sans-serif;   
+}
+.app_txt h1{
+  font-size: 2em;
+}
+.app_txt p{
+  font-size: 1.5vw;
+  text-align: left;
+  line-height: 1.6em;
+}
+.wrapper_left{
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 3em 3em;
+}
+.wrapper_right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  padding: 3em 3em;
+}
+.app_img{
+  height: 100%;
+  padding: 3em;
+}
+.app_img img{
+  height: 35em;
+}
