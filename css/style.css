@@ -1,6 +1,6 @@
 /*******Alle sider*********/
 *{
-  font-family: tahoma;
+  font-family: tahoma, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ h1{
 }
 
 h2 {
-  padding: 10 auto;
+  padding: 2vh 0;
 }
 
 .content{
@@ -231,10 +231,13 @@ h2 {
 .problem-text, .solution-text {
   margin-left: 10%;
   margin-right: 10%;
-  color: black;
-  font-family: tahoma, sans-serif;
   line-height: 2em;
   letter-spacing: 1px;
+}
+
+.twoColumns{
+  display: flex;
+  flex-direction: row;
 }
 
 /*PROBLEM-PAGE*/
@@ -256,9 +259,8 @@ h2 {
 }
 
 .text-wrap-left {
-  float: left;
   margin: 10px 20px 10px 0px;
-
+  max-height: 35vh;
 }
 .text-wrap-right {
   float: right;
