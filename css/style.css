@@ -468,6 +468,8 @@ ul {
 /*************PROTYPE-PAGE****************/
 
 main{
+  align-items: center;
+  text-align: center;
   width: 100%;
   height: auto;
   background: #f3e9e3;
@@ -480,57 +482,62 @@ main{
 .divices_img{
   height: auto;
   width: 100%;
-  padding-top: 6em;
-  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 .divices_img img{
-  height: 30em;
-  width: 50%;
+  height: auto;
+  max-width: 50vw;
 }
 .divices_txt{
-  padding: 0em 10em;
-  font-family: Ubuntu;
+  padding: 0em 6em;
+  font-weight: 200;
+  font-size: 28px;
   line-height: 1.5em;
 }
-
 .prototype{
-  height: 40em;
+  height: 35em;
   width: 100%;
+  padding: 0.5em;
+  /*display: flex;*/
 }
 .wrapper_dark{
   color: white;
-  padding: 2em;
 }
-.wrapper_light{
-  padding: 2em;
-}
-.app_txt{
-  font-family: 'Segoe UI', sans-serif;
-}
+
 .app_txt h1{
-  font-size: 2em;
+  font-size: 30px;
+  margin-top: 10%;
 }
 .app_txt p{
-  font-size: 1.5vw;
   text-align: left;
-  line-height: 1.6em;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 2em;
+  letter-spacing: 1px;
 }
 .wrapper_left{
   float: left;
   width: 50%;
   height: 100%;
-  padding: 3em 3em;
+  padding: 3em;
 }
 .wrapper_right{
   float: right;
   width: 50%;
-  min-height: 100%;
-  padding: 3em 3em;
+  height: 100%;
+  padding: 3em;
 }
 .app_img{
   height: 100%;
   padding: 3em;
 }
 .app_img img{
-  height: 35em;
+  height: 30em;
+  width: auto;
+}
+.app_img_tablet img{
+  height: 45vh;
+  width: 35vw;
 }
