@@ -176,9 +176,8 @@ h2 {
 }
 
 #app-image {
-  height: 290px;
-  width: 290px;
-  box-shadow: 5px 10px 8px #888888:
+  max-height: 75vh;
+  /*box-shadow: 5px 10px 8px #888888;*/
 }
 
 .intro{
