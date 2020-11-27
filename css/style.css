@@ -276,15 +276,37 @@ h2 {
   flex: 40%;
   margin-right: 10%;
 }
+.flex-challenge-right img{
+  max-width: 100%;
+}
+.flex-leftpro img{
+  max-width: 100%;
+}
 
-.text-wrap-left {
+.twoColumns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.twoColumns-left{
+  flex: 30%;
+  margin-right: 20px;
+}
+.twoColumns-right{
+  flex: 70%;
+}
+.twoColumns-left img{
+  max-width: 100%;
+}
+
+/*.text-wrap-left {
   margin: 10px 20px 10px 0px;
   max-height: 35vh;
 }
 .text-wrap-right {
   float: right;
   margin: 10px 0px 10px 20px;
-}
+}*/
 .center {
   display: block;
   width: 80%;
@@ -383,8 +405,11 @@ ul {
   margin-right: 10%;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
+.topflex-solleft img {
+  max-width: 100%;
+}
+
 
 @media screen and (max-width: 800px){
   /*Hjemside*/
@@ -426,7 +451,13 @@ ul {
     margin-right: 10%;
     margin-bottom: 30px;
   }
-  .flex-challenge-right img{
+  .twoColumns {
+    flex-direction: column;
+  }
+  .twoColumns-left img {
+    margin-top: 40px;
+  }
+  /*.flex-challenge-right img{
     max-width: 100%;
   }
   .flex-leftpro img{
@@ -444,6 +475,7 @@ ul {
     margin-bottom: 30px;
     margin: 10 0 10 0;
   }
+  */
   .flex-pro {
     flex-direction: column;
   }
@@ -599,7 +631,7 @@ main{
   .wrapper_dark{
     color: white;
   }
-  
+
   .app_txt h1{
     font-size: 30px;
     margin-top: 5%;
@@ -635,5 +667,5 @@ main{
     height: 45vh;
     width: 35vw;
   }
-  
+
 }
