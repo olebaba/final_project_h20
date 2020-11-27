@@ -396,10 +396,12 @@ ul {
     margin-bottom: 0.5vw;
   }
   .primary-heading {
-    margin: auto;
+    width: auto;
   }
   #distancing {
     margin: auto;
+    min-width: 70vw;
+    height: auto;
   }
   #crowd-image {
     height:25vw;
@@ -599,7 +601,7 @@ main{
   .wrapper_dark{
     color: white;
   }
-  
+
   .app_txt h1{
     font-size: 30px;
     margin-top: 5%;
@@ -635,5 +637,5 @@ main{
     height: 45vh;
     width: 35vw;
   }
-  
+
 }
