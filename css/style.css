@@ -289,11 +289,11 @@ h2 {
   align-items: center;
 }
 .twoColumns-left{
-  flex: 30%;
+  flex: 70%;
   margin-right: 20px;
 }
 .twoColumns-right{
-  flex: 70%;
+  flex: 30%;
 }
 .twoColumns-left img{
   max-width: 100%;
