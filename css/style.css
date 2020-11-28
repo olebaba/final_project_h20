@@ -119,7 +119,7 @@ h2 {
 .footer-resources a{
   background-color: #403234;
   color: white;
-  padding: 2vw;
+  padding: 1.5vw;
   border: 3px solid white;
   border-radius: 2em;
   text-decoration: none;
@@ -131,7 +131,7 @@ h2 {
 .footer-team a{
   background-color: #403234;
   color: white;
-  padding: 2vw;
+  padding: 1.5vw;
   border: 3px solid white;
   border-radius: 2em;
   text-decoration: none;
@@ -143,7 +143,20 @@ h2 {
 .footer a:hover {
   text-decoration: underline;
 }
-
+@media screen and (max-width: 340px){
+  .footer{
+    flex-direction: column;
+  }
+  .footer-resources {
+    margin: 10px;
+  }
+  .footer-team {
+    margin: 10px;
+  }
+  .logo {
+    margin: 10px;
+  }
+}
 
 
 /********Hoved div**********/
