@@ -457,25 +457,7 @@ ul {
   .twoColumns-left img {
     margin-top: 40px;
   }
-  /*.flex-challenge-right img{
-    max-width: 100%;
-  }
-  .flex-leftpro img{
-    max-width: 100%;
-  }
-  .center img{
-    max-width: 100%;
-  }
-  .text-wrap-left, .text-wrap-right{
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin: 10 0 10 0;
-  }
-  */
+
   .flex-pro {
     flex-direction: column;
   }
