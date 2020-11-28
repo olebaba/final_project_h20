@@ -45,9 +45,10 @@ h2 {
 }
 
 #sources h1{
-  font-size: 4em;
+  font-size: 6vw;
+  height: fit-content;
   margin: 2vw auto;
-  text-align: left;
+  text-align: center;
 }
 
 #navbar img{
