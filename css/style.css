@@ -378,6 +378,17 @@ ul firkant{
 .flex-rightpro h2 {
   color: white;
 }
+.problem-text a:link {
+  color: #AD0F3F;
+  text-decoration: none;
+}
+.problem-text a:visited {
+  color: #AD0F3F;
+  text-decoration: none;
+}
+.problem-text a:hover{
+  text-decoration: underline;
+}
 /*SOLUTION-PAGE*/
 .solution-text-white{
   color: white;
