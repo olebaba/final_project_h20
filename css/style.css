@@ -12,9 +12,9 @@ html, body{
 
 body{
   background-color: #F3E9E3;
-  z-index: 0;
+  /*z-index: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 
 h1{
@@ -65,7 +65,7 @@ h2 {
 
 /********Footer*******/
 
-#footer{
+/*#footer{
   color: white;
   background-color: #83453F;
   text-align: center;
@@ -89,7 +89,7 @@ h2 {
 .contributor{
   margin: auto;
   flex: 1 0 30%;
-  /*height: 20vh;*/
+  /*height: 20vh;
 }
 
 #contributors{
@@ -102,7 +102,49 @@ h2 {
 #resources{
   flex: 20%;
   color: white;
+}*/
+
+.footer {
+  background-color: #403234;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
 }
+.footer-resources {
+  flex: 45%;
+  text-align: center;
+}
+.footer-resources a{
+  background-color: white;
+  color: black;
+  padding: 2vw;
+  border: 3px solid black;
+  border-radius: 2em;
+  text-decoration: none;
+}
+.footer-team {
+  flex: 45%;
+  text-align: center;
+}
+.footer-team a{
+  background-color: white;
+  color: black;
+  padding: 2vw;
+  border: 3px solid black;
+  border-radius: 2em;
+  text-decoration: none;
+}
+.logo {
+  flex: 10%;
+  align-items: center;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
 
 /********Hoved div**********/
 
