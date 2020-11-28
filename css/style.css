@@ -246,6 +246,20 @@ h2 {
   width: 5vw;
   height: 6vh;
 }
+.problem-text a:link {
+  color: #83453F;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+.problem-text a:visited {
+  color: #83453F;
+  background-color: transparent;
+  text-decoration: none;
+}
+.problem-text a:hover {
+  text-decoration: underline;
+}
 /*Problem and solution*/
 .problem-text, .solution-text {
   margin-left: 10%;
