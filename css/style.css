@@ -231,7 +231,7 @@ h2 {
   background-color: #333548;
   border-radius: 2em;
   text-align: left;
-  width: 50%;
+  width: 70%;
   margin: auto;
   padding: 2vw;
 }
@@ -245,6 +245,14 @@ h2 {
   width: 5vw;
   height: 6vh;
 }
+
+/********** team side *********/
+
+ul firkant{
+  display: block;
+  list-style-type: square;
+}
+
 /*Problem and solution*/
 .problem-text, .solution-text {
   margin-left: 10%;
