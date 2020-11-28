@@ -67,7 +67,7 @@ h2 {
 
 #footer{
   color: white;
-  background-color: #E26D5C;
+  background-color: #83453F;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@ h2 {
 }
 
 .button {
-  background-color: #E26D5C;
+  background-color: #83453F;
   border: none;
   color: white;
   padding: 10px 20px;
