@@ -45,7 +45,8 @@ h2 {
 }
 
 #sources h1{
-  font-size: 10vw;
+  font-size: 6vw;
+  height: fit-content;
   margin: 2vw auto;
   text-align: center;
 }
