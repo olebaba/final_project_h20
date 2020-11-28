@@ -299,14 +299,6 @@ h2 {
   max-width: 100%;
 }
 
-/*.text-wrap-left {
-  margin: 10px 20px 10px 0px;
-  max-height: 35vh;
-}
-.text-wrap-right {
-  float: right;
-  margin: 10px 0px 10px 20px;
-}*/
 .center {
   display: block;
   width: 80%;
@@ -443,14 +435,6 @@ ul {
   }
   /*PROBLEM-PAGE*/
 
-  .flex-challenge{
-    flex-direction: column;
-  }
-  .flex-challenge-right{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-  }
   .twoColumns {
     flex-direction: column;
   }
@@ -497,6 +481,16 @@ ul {
 
   /****Hoved****/
 
+}
+@media screen and (max-width: 1024px){
+  .flex-challenge{
+    flex-direction: column;
+  }
+  .flex-challenge-right{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
 }
 
 /*************PROTYPE-PAGE****************/
