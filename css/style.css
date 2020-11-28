@@ -117,10 +117,10 @@ h2 {
   text-align: center;
 }
 .footer-resources a{
-  background-color: white;
-  color: black;
+  background-color: #403234;
+  color: white;
   padding: 2vw;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 2em;
   text-decoration: none;
 }
@@ -129,10 +129,10 @@ h2 {
   text-align: center;
 }
 .footer-team a{
-  background-color: white;
-  color: black;
+  background-color: #403234;
+  color: white;
   padding: 2vw;
-  border: 3px solid black;
+  border: 3px solid white;
   border-radius: 2em;
   text-decoration: none;
 }
