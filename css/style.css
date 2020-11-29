@@ -740,77 +740,132 @@ main{
   /****Hoved****/
 
 
-  /***PROTYPE***/
-  main{
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background: #f3e9e3;
-    /*box-shadow: inset 0px 1px 3px rgba(100,100,100,0.5);*/
-  }
-  .divices{
-    width: 100%;
-    max-height: auto;
-  }
-  .divices_img{
-    height: auto;
-    width: 100%;
-    padding-top: 2em;
-    padding-bottom: 1em;
-  }
+/*****PROTYPE-PAGE****/
+main{
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background: #f3e9e3; 
+}
+.divices{
+  width: 100%;
+  max-height: auto;
+}
+.divices_img{
+  height: auto;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.divices_img img{
+  height: auto;
+  max-width: 50vw;
+}
+.divices_txt{
+  padding: 0em 6em;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 1.5em;
+}
+.prototype{
+  height: 35em;
+  width: 100%;
+  padding: 0.5em;
+}
+.wrapper_dark{
+  color: white;
+}
+.app_txt h1{
+  font-size: 30px;
+  margin-top: 15%;
+}
+.app_txt p{
+  text-align: left;
+  margin: 5% 8% 0% 5%;
+  line-height: 2em;
+  letter-spacing: 1px;
+}
+.wrapper_left{
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 3em;
+}
+.wrapper_right{
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 3em;
+}
+.app_img{
+  height: 100%;
+}
+.app_img img{
+  height: 28em;
+  width: auto;
+}
+.app_img_tablet img{
+  height: 45vh;
+  width: 35vw;
+}
+
+/*******Resoinsive-Prototype-Page**********/
+@media screen and (max-width: 800px){
   .divices_img img{
     height: auto;
-    max-width: 50vw;
+    max-width: 320px;
   }
   .divices_txt{
-    padding: 0em 6em;
-    font-weight: 200;
-    font-size: 28px;
-    line-height: 1.5em;
+    padding: 0em 2em;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.2em;
   }
   .prototype{
-    height: 35em;
+    height: auto;
+  }
+  .app_txt{
     width: 100%;
-    padding: 0.5em;
+    height: 100%;
   }
-  .wrapper_dark{
-    color: white;
-  }
-
   .app_txt h1{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 5%;
-  }
+  } 
   .app_txt p{
     text-align: left;
-    margin-top: 4%;
-    margin-left: 5%;
-    margin-right: 5%;
-    line-height: 2em;
-    letter-spacing: 1px;
+    margin-top: 1%;
+    margin-left:  1%;
+    margin-right: 1%;
   }
   .wrapper_left{
-    float: left;
-    width: 50%;
-    height: 100%;
+    float: none;
+    height: 50%;
     padding: 1em;
   }
   .wrapper_right{
-    float: right;
-    width: 50%;
-    height: 100%;
-    padding: 3em;
+    float: none;
+    height: 50%;
+    padding: 1em;
   }
   .app_img{
     height: 100%;
+    width: 100%;
   }
   .app_img img{
-    height: 28em;
+    height: 22em;
     width: auto;
   }
+  .app_img_tablet{
+    height: 100%;
+    width: 100%;
+  
+  }
   .app_img_tablet img{
-    height: 45vh;
-    width: 35vw;
+    height: 20em;
+    width: 30em;
   }
 }
+
+
