@@ -680,7 +680,6 @@ main{
 .divices_img img{
   height: auto;
   max-width: 50vw;
-  transition: 2s;
 }
 .divices_txt{
   padding: 0em 6em;
@@ -696,7 +695,6 @@ main{
 .wrapper_dark{
   color: white;
 }
-
 .app_txt h1{
   font-size: 30px;
   margin-top: 5%;
@@ -713,13 +711,11 @@ main{
   float: left;
   width: 50%;
   height: 100%;
-  padding: 3em;
 }
 .wrapper_right{
   float: right;
   width: 50%;
   height: 100%;
-  padding: 3em;
 }
 .app_img{
   height: 100%;
