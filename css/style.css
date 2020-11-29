@@ -12,9 +12,9 @@ html, body{
 
 body{
   background-color: #F3E9E3;
-  z-index: 0;
+  /*z-index: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 
 h1{
@@ -45,9 +45,10 @@ h2 {
 }
 
 #sources h1{
-  font-size: 4em;
+  font-size: 6vw;
+  height: fit-content;
   margin: 2vw auto;
-  text-align: left;
+  text-align: center;
 }
 
 #navbar img{
@@ -65,9 +66,9 @@ h2 {
 
 /********Footer*******/
 
-#footer{
+/*#footer{
   color: white;
-  background-color: #E26D5C;
+  background-color: #83453F;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -89,7 +90,7 @@ h2 {
 .contributor{
   margin: auto;
   flex: 1 0 30%;
-  /*height: 20vh;*/
+  /*height: 20vh;
 }
 
 #contributors{
@@ -102,7 +103,62 @@ h2 {
 #resources{
   flex: 20%;
   color: white;
+}*/
+
+.footer {
+  background-color: #403234;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
 }
+.footer-resources {
+  flex: 45%;
+  text-align: center;
+}
+.footer-resources a{
+  background-color: #403234;
+  color: white;
+  padding: 1.5vw;
+  border: 3px solid white;
+  border-radius: 2em;
+  text-decoration: none;
+}
+.footer-team {
+  flex: 45%;
+  text-align: center;
+}
+.footer-team a{
+  background-color: #403234;
+  color: white;
+  padding: 1.5vw;
+  border: 3px solid white;
+  border-radius: 2em;
+  text-decoration: none;
+}
+.logo {
+  flex: 10%;
+  align-items: center;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 340px){
+  .footer{
+    flex-direction: column;
+  }
+  .footer-resources {
+    margin: 10px;
+  }
+  .footer-team {
+    margin: 10px;
+  }
+  .logo {
+    margin: 10px;
+  }
+}
+
 
 /********Hoved div**********/
 
@@ -122,7 +178,7 @@ h2 {
 }
 
 .section-container {
-  width: 70%;
+  width: 75%;
   margin: auto;
   padding: 5vw;
   display: flex;
@@ -130,7 +186,7 @@ h2 {
 }
 
 .button {
-  background-color: #E26D5C;
+  background-color: #AD0F3F;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -194,8 +250,7 @@ h2 {
 
 #crowd-image {
   height: 19vw;
-  width: 30vw;
-  box-shadow: 5px 10px 8px #888888:
+  box-shadow: 5px 10px 8px #888888;
 }
 
 #app-image {
@@ -232,9 +287,9 @@ h2 {
   background-color: #333548;
   border-radius: 2em;
   text-align: left;
-  width: 50%;
+  width: 70%;
   margin: auto;
-  padding: 2vw;
+  padding: 4vw;
 }
 
 #sources *{
@@ -246,6 +301,14 @@ h2 {
   width: 5vw;
   height: 6vh;
 }
+
+/********** team side *********/
+
+ul firkant{
+  display: block;
+  list-style-type: square;
+}
+
 /*Problem and solution*/
 .problem-text, .solution-text {
   margin-left: 10%;
@@ -276,15 +339,29 @@ h2 {
   flex: 40%;
   margin-right: 10%;
 }
+.flex-challenge-right img{
+  max-width: 100%;
+}
+.flex-leftpro img{
+  max-width: 100%;
+}
 
-.text-wrap-left {
-  margin: 10px 20px 10px 0px;
-  max-height: 35vh;
+.twoColumns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.text-wrap-right {
-  float: right;
-  margin: 10px 0px 10px 20px;
+.twoColumns-left{
+  flex: 70%;
+  margin-right: 20px;
 }
+.twoColumns-right{
+  flex: 30%;
+}
+.twoColumns-left img{
+  max-width: 100%;
+}
+
 .center {
   display: block;
   width: 80%;
@@ -314,6 +391,17 @@ h2 {
 }
 .flex-rightpro h2 {
   color: white;
+}
+.problem-text a:link {
+  color: #AD0F3F;
+  text-decoration: none;
+}
+.problem-text a:visited {
+  color: #AD0F3F;
+  text-decoration: none;
+}
+.problem-text a:hover{
+  text-decoration: underline;
 }
 /*SOLUTION-PAGE*/
 .solution-text-white{
@@ -383,8 +471,11 @@ ul {
   margin-right: 10%;
   margin-top: 30px;
   margin-bottom: 30px;
-
 }
+.topflex-solleft img {
+  max-width: 100%;
+}
+
 
 @media screen and (max-width: 800px){
   /*Hjemside*/
@@ -408,7 +499,6 @@ ul {
     margin-bottom: 10px;
   }
   #app-image {
-    height:40vw;
     width: 20vw;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -418,32 +508,13 @@ ul {
   }
   /*PROBLEM-PAGE*/
 
-  .flex-challenge{
+  .twoColumns {
     flex-direction: column;
   }
-  .flex-challenge-right{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
+  .twoColumns-left img {
+    margin-top: 40px;
   }
-  .flex-challenge-right img{
-    max-width: 100%;
-  }
-  .flex-leftpro img{
-    max-width: 100%;
-  }
-  .center img{
-    max-width: 100%;
-  }
-  .text-wrap-left, .text-wrap-right{
-    float: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin: 10 0 10 0;
-  }
+
   .flex-pro {
     flex-direction: column;
   }
@@ -483,6 +554,16 @@ ul {
 
   /****Hoved****/
 
+}
+@media screen and (max-width: 1024px){
+  .flex-challenge{
+    flex-direction: column;
+  }
+  .flex-challenge-right{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
 }
 
 /*************PROTYPE-PAGE****************/
@@ -563,6 +644,103 @@ main{
 }
 
 @media screen and (max-width: 800px){
+  /*Hjemside*/
+  .section-container {
+    flex-direction: column;
+  }
+  .intro {
+    flex-direction: column;
+    margin-bottom: 0.5vw;
+  }
+  .primary-heading {
+    width: auto;
+  }
+  #distancing {
+    margin: auto;
+    min-width: 70vw;
+    height: auto;
+  }
+  #crowd-image {
+    height: 20vh;
+    min-width: 40vw;
+    margin-top: 6vh;
+  }
+  #app-image {
+    width: 60vw;
+    margin: 5vh auto;
+  }
+  .section-image {
+    margin: 0;
+  }
+  /*PROBLEM-PAGE*/
+
+  .flex-challenge{
+    flex-direction: column;
+  }
+  .flex-challenge-right{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+  .flex-challenge-right img{
+    max-width: 100%;
+  }
+  .flex-leftpro img{
+    max-width: 100%;
+  }
+  .center img{
+    max-width: 100%;
+  }
+  .text-wrap-left, .text-wrap-right{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 10 0 10 0;
+  }
+  .flex-pro {
+    flex-direction: column;
+  }
+  .flex-leftpro {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+  }
+  .flex-rightpro {
+
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  /*Solution-page*/
+  .flex-so {
+    flex-direction: column;
+    margin: 0;
+  }
+  .flex-leftso {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+  }
+  .flex-rightso {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .topflex-sol{
+    flex-direction: column;
+  }
+  .topflex-solleft img{
+    max-width: 100%;
+  }
+
+  /****Hoved****/
+
+
+  /***PROTYPE***/
   main{
     align-items: center;
     text-align: center;
@@ -599,7 +777,7 @@ main{
   .wrapper_dark{
     color: white;
   }
-  
+
   .app_txt h1{
     font-size: 30px;
     margin-top: 5%;
@@ -635,5 +813,4 @@ main{
     height: 45vh;
     width: 35vw;
   }
-  
 }
