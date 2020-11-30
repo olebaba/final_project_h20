@@ -612,7 +612,7 @@ ul {
   .center img{
     max-width: 100%;
   }
-  .text-wrap-left, .text-wrap-right{
+  /*.text-wrap-left, .text-wrap-right{
     float: none;
     display: block;
     margin-left: auto;
@@ -620,7 +620,7 @@ ul {
     margin-top: 30px;
     margin-bottom: 30px;
     margin: 10 0 10 0;
-  }
+  }*/
   .flex-pro {
     flex-direction: column;
   }
@@ -749,7 +749,7 @@ main{
   .app_txt h1{
     font-size: 25px;
     margin-top: 5%;
-  } 
+  }
   .app_txt p{
     text-align: left;
     margin-top: 1%;
