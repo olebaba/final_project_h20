@@ -285,7 +285,7 @@ h2 {
 }
 
 #sources{
-  background-color: #333548;
+  background-color: #22333b;
   border-radius: 2em;
   text-align: left;
   width: 70%;
@@ -394,11 +394,11 @@ ul firkant{
   color: white;
 }
 .problem-text a:link {
-  color: #AD0F3F;
+  color: #22333b;
   text-decoration: none;
 }
 .problem-text a:visited {
-  color: #AD0F3F;
+  color: #22333b;
   text-decoration: none;
 }
 .problem-text a:hover{
