@@ -254,6 +254,9 @@ h2 {
   padding: 4vw;
 }
 
+#sources a:hover {
+  font-weight: bold;
+}
 #sources *{
   margin: 1vh;
   color: inherit;
