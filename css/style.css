@@ -24,7 +24,10 @@ h1{
 h2 {
   padding: 2vh 0;
 }
-
+p {
+  line-height: 2em;
+  letter-spacing: 1px;
+}
 .content{
   flex: 1 0 auto;
 }
@@ -67,52 +70,13 @@ h2 {
 
 /********Footer*******/
 
-/*#footer{
-  color: white;
-  background-color: #83453F;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.fContent{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 2vh;
-}
-
-.fContent img{
-  padding:1vh;
-  max-width:4%;
-  filter:invert(1);
-}
-
-.contributor{
-  margin: auto;
-  flex: 1 0 30%;
-  /*height: 20vh;
-}
-
-#contributors{
-  flex: 80%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#resources{
-  flex: 20%;
-  color: white;
-}*/
-
 .footer {
   background-color: #403234;
-  padding: 20px;
+  padding: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 15vh;
 }
 .footer-resources {
   flex: 45%;
@@ -197,6 +161,9 @@ h2 {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 50px;
+}
+.section-container a:hover{
+  text-decoration: underline;
 }
 
 .section-content {
@@ -285,7 +252,7 @@ h2 {
 }
 
 #sources{
-  background-color: #333548;
+  background-color: #22333b;
   border-radius: 2em;
   text-align: left;
   width: 70%;
@@ -293,6 +260,9 @@ h2 {
   padding: 4vw;
 }
 
+#sources a:hover {
+  font-weight: bold;
+}
 #sources *{
   margin: 1vh;
   color: inherit;
@@ -394,11 +364,11 @@ ul firkant{
   color: white;
 }
 .problem-text a:link {
-  color: #AD0F3F;
+  color: #22333b;
   text-decoration: none;
 }
 .problem-text a:visited {
-  color: #AD0F3F;
+  color: #22333b;
   text-decoration: none;
 }
 .problem-text a:hover{
@@ -479,6 +449,13 @@ ul {
 
 
 @media screen and (max-width: 800px){
+  #sustainable-goal3{
+    display: none;
+  }
+  /***Footer***/
+  .footer{
+    padding: 3vh 0.5vh;
+  }
   /*Hjemside*/
   .section-container {
     flex-direction: column;
@@ -612,7 +589,7 @@ ul {
   .center img{
     max-width: 100%;
   }
-  .text-wrap-left, .text-wrap-right{
+  /*.text-wrap-left, .text-wrap-right{
     float: none;
     display: block;
     margin-left: auto;
@@ -620,7 +597,7 @@ ul {
     margin-top: 30px;
     margin-bottom: 30px;
     margin: 10 0 10 0;
-  }
+  }*/
   .flex-pro {
     flex-direction: column;
   }
@@ -749,7 +726,7 @@ main{
   .app_txt h1{
     font-size: 25px;
     margin-top: 5%;
-  } 
+  }
   .app_txt p{
     text-align: left;
     margin-top: 1%;
