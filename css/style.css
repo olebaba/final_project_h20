@@ -85,7 +85,6 @@ h1{
   margin: auto;
 }
 .footer-resources {
-  flex: 45%;
   text-align: center;
 }
 .footer-resources a{
@@ -97,7 +96,6 @@ h1{
   text-decoration: none;
 }
 .footer-team {
-  flex: 45%;
   text-align: center;
 }
 .footer-team a{
@@ -110,7 +108,6 @@ h1{
 }
 .logo {
   margin-left: 1em;
-  flex: 10%;
   align-items: center;
 }
 .footer a:hover {
