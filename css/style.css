@@ -446,6 +446,13 @@ ul {
 
 
 @media screen and (max-width: 800px){
+  #sustainable-goal3{
+    display: none;
+  }
+  /***Footer***/
+  .footer{
+    padding: 3vh 0.5vh;
+  }
   /*Hjemside*/
   .section-container {
     flex-direction: column;
