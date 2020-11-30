@@ -630,11 +630,12 @@ ul {
     margin-top: 6vh;
   }
   #app-image {
-    width: 30vw;
+    width: 60%;
     margin: 5vh auto;
     max-height: none;
   }
   .section-image {
+    text-align: center;
     margin: 0;
   }
   /*PROBLEM-PAGE*/
