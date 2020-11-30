@@ -165,6 +165,8 @@ h2 {
 
 .section-content {
   flex: 60%;
+  line-height: 2em;
+  letter-spacing: 1px;
 }
 
 .section-image {
