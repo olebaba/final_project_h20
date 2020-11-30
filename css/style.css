@@ -42,6 +42,10 @@ h2 {
   height: fit-content;
 }
 
+#navbar a:hover{
+  text-decoration: underline;
+}
+
 #sources h1{
   font-size: 6vw;
   height: fit-content;
