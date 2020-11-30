@@ -24,7 +24,10 @@ h1{
 h2 {
   padding: 2vh 0;
 }
-
+p {
+  line-height: 2em;
+  letter-spacing: 1px;
+}
 .content{
   flex: 1 0 auto;
 }
@@ -69,11 +72,11 @@ h2 {
 
 .footer {
   background-color: #403234;
-  padding: 20px;
+  padding: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 15vh;
 }
 .footer-resources {
   flex: 45%;
@@ -443,6 +446,13 @@ ul {
 
 
 @media screen and (max-width: 800px){
+  #sustainable-goal3{
+    display: none;
+  }
+  /***Footer***/
+  .footer{
+    padding: 3vh 0.5vh;
+  }
   /*Hjemside*/
   .section-container {
     flex-direction: column;
