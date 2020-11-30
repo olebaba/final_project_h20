@@ -18,9 +18,9 @@ h1{
   text-align: center;
 }
 
-h2 {
+/*h2 {
   padding: 2vh 0;
-}
+}*/
 
 .content{
   flex: 1 0 auto;
@@ -296,6 +296,7 @@ ul firkant{
 /*PROBLEM-PAGE*/
 .problem-text h2{
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 .flex-challenge {
   display: flex;
@@ -388,9 +389,9 @@ ul firkant{
   line-height: 2em;
   letter-spacing: 1px;
 }
-/* img{
-  max-width: 100%;
-} */
+.solution-text h2{
+  margin-bottom: 20px;
+}
 
 .flex-so {
   display: flex;
