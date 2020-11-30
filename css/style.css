@@ -24,10 +24,7 @@ h1{
 h2 {
   padding: 2vh 0;
 }
-p {
-  line-height: 2em;
-  letter-spacing: 1px;
-}
+
 .content{
   flex: 1 0 auto;
 }
