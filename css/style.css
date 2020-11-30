@@ -72,11 +72,11 @@ p {
 
 .footer {
   background-color: #403234;
-  padding: 20px;
+  padding: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 15vh;
 }
 .footer-resources {
   flex: 45%;
