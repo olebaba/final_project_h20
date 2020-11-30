@@ -688,7 +688,7 @@ main{
   line-height: 1.5em;
 }
 .prototype{
-  height: 35em;
+  height: 32em;
   width: 100%;
   padding: 0.5em;
 }
@@ -697,13 +697,11 @@ main{
 }
 .app_txt h1{
   font-size: 30px;
-  margin-top: 5%;
+  margin-top: 15%;
 }
 .app_txt p{
   text-align: left;
-  margin-top: 4%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 4% 10% 0% 10%;
   line-height: 2em;
   letter-spacing: 1px;
 }
@@ -723,12 +721,13 @@ main{
 .app_img img{
   height: 28em;
   width: auto;
-  transition: 2s;
 }
-.app_img_tablet img{
-  height: 45vh;
-  width: 35vw;
+.app_img .tablet_img{
+  margin-top: 3em;
+  height: 20em;
+  width: auto;
 }
+
 
 /*******Resoinsive-Prototype-Page**********/
 @media screen and (max-width: 800px){
@@ -777,13 +776,8 @@ main{
     height: 22em;
     width: auto;
   }
-  .app_img_tablet{
+  .app_img .tablet_img{
     height: 100%;
     width: 100%;
-  
-  }
-  .app_img_tablet img{
-    height: 20em;
-    width: 30em;
   }
 }
