@@ -12,9 +12,6 @@ html, body{
 
 body{
   background-color: #F3E9E3;
-  /*z-index: 0;
-  display: flex;
-  flex-direction: column;*/
 }
 
 h1{
@@ -24,10 +21,7 @@ h1{
 h2 {
   padding: 2vh 0;
 }
-p {
-  line-height: 2em;
-  letter-spacing: 1px;
-}
+
 .content{
   flex: 1 0 auto;
 }
@@ -168,6 +162,8 @@ p {
 
 .section-content {
   flex: 60%;
+  line-height: 2em;
+  letter-spacing: 1px;
 }
 
 .section-image {
@@ -708,7 +704,7 @@ main{
 @media screen and (max-width: 800px){
   .divices_img img{
     height: auto;
-    max-width: 320px;
+    max-width: 100%;
   }
   .divices_txt{
     padding: 0em 2em;
