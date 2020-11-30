@@ -162,6 +162,9 @@ p {
   cursor: pointer;
   border-radius: 50px;
 }
+.section-container a:hover{
+  text-decoration: underline;
+}
 
 .section-content {
   flex: 60%;
