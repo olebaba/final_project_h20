@@ -708,7 +708,7 @@ main{
 @media screen and (max-width: 800px){
   .divices_img img{
     height: auto;
-    max-width: 320px;
+    max-width: 100%;
   }
   .divices_txt{
     padding: 0em 2em;
