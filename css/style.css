@@ -117,15 +117,10 @@ h1{
   .footer{
     flex-direction: column;
   }
-  .footer-resources {
-    margin: 10px;
+  .footer div{
+    margin-bottom: 20px;
   }
-  .footer-team {
-    margin: 10px;
-  }
-  .logo {
-    margin: 10px;
-  }
+
 }
 
 
