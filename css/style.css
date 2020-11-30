@@ -31,6 +31,7 @@ h2 {
 
 .darkDiv{
   background-color: #22333b;
+    color: white
 }
 
 /*********Navbar menu ************/
@@ -692,9 +693,6 @@ main{
   width: 100%;
   padding: 0.5em;
 }
-.wrapper_dark{
-  color: white;
-}
 .app_txt h1{
   font-size: 30px;
   margin-top: 15%;
@@ -777,7 +775,15 @@ main{
     width: auto;
   }
   .app_img .tablet_img{
+    margin-top: 1em;
     height: 100%;
     width: 100%;
   }
+}
+@media screen and (min-width: 425px)and (max-width: 800px){
+    .app_img .tablet_img{
+        margin-top: 0.1em;
+        height: 20em;
+        width: auto;
+    }
 }
