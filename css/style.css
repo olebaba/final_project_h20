@@ -770,7 +770,7 @@ main{
 
 
 /*******Resoinsive-Prototype-Page**********/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
   .divices_img img{
     height: auto;
     max-width: 100%;
