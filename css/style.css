@@ -118,6 +118,9 @@ h1{
 .footer a:hover {
   text-decoration: underline;
 }
+.footer .active{
+  text-decoration: underline;
+}
 @media screen and (max-width: 340px){
   .footer{
     flex-direction: column;
