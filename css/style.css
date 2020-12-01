@@ -4,11 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 html, body{
   height: 100%;
   scroll-behavior: smooth;
+  font-size: 1.5vh;
 }
 
 body{
@@ -34,13 +36,17 @@ h1{
 
 /*********Navbar menu ************/
 
-#navbar a{
+#navbar a:not(:first-child){
   color: #333548;
   text-decoration: none;
-  font-size: 2vw;
-  margin: 1vh 4vw;
+  font-size: 2em;
+
   padding: 3vh 3vw;
   height: fit-content;
+}
+
+#navbar a{
+  margin: 1vh 4vw;
 }
 
 #navbar a:hover{
@@ -50,7 +56,6 @@ h1{
   text-decoration: underline;
 }
 
-
 #sources h1{
   font-size: 6vw;
   height: fit-content;
@@ -59,7 +64,7 @@ h1{
 }
 
 #navbar img{
-  max-width: 100%;
+  width: 20em;
 }
 
 #navbar{
@@ -69,6 +74,7 @@ h1{
   /*background-image: linear-gradient( #F3E9E3 75%, #07beb840);*/
   align-items: center;
   margin-bottom: 1vh;
+  padding: 3em;
 }
 
 #mobile-nav{
@@ -295,6 +301,7 @@ ul firkant{
   margin-right: 10%;
   line-height: 2em;
   letter-spacing: 1px;
+  font-size: 1.5em;
 }
 
 .twoColumns{
@@ -434,25 +441,24 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-.topflex-solleft{
-  flex: 70%;
-  margin-left: 10%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-right: 20px;
+  margin: 5vh 5vw;
 }
 
-.topflex-solright p{
+.topflex-sol div{
+  margin: 1vh 5vw;
+}
+
+.topflex-solleft{
+  flex: 70%;
+}
+
+.topflex-solright h3{
   font-family: georgia, serif;
-  font-size: 40px;
   text-align: center;
+  font-size: 4em;
 }
 .topflex-solright{
   flex: 30%;
-  margin-right: 10%;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 .topflex-solleft img {
   max-width: 100%;
@@ -556,7 +562,7 @@ ul {
     border: none !important;
     width: 100% !important;
     font-size: 2em;
-    margin: 1vh 1em;
+    margin: 3vh 1em;
   }
 
   #mobile-nav a{
@@ -735,7 +741,6 @@ main{
 .divices_txt{
   padding: 0em 6em;
   font-weight: 200;
-  font-size: 28px;
   line-height: 1.5em;
 }
 .prototype{
@@ -752,6 +757,7 @@ main{
   margin: 4% 10% 0% 10%;
   line-height: 2em;
   letter-spacing: 1px;
+  font-size: 1em;
 }
 .wrapper_left{
   float: left;
@@ -767,7 +773,8 @@ main{
   height: 100%;
 }
 .app_img img{
-  height: 28em;
+  margin-top: 7vh;
+  height: 23em;
   width: auto;
 }
 .app_img .tablet_img{
@@ -836,4 +843,7 @@ main{
         height: 20em;
         width: auto;
     }
+}
+
+@media screen and (min-width: 1100px) {
 }
